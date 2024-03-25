@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "id": "@id",
+        "type": "@type",
+        "ldes": "https://w3id.org/ldes#",
+        "tree": "https://w3id.org/tree#",
+	    "ev": "https://www.eventnotifications.net/ns#",
+	    "EventLogCatalog": "ev:EventLogCatalog",
+        "member": { "@id": "tree:member", "@type": "@id" },
+	    "artifact": { "@id": "ev:artifact", "@type": "@id" }
+    },
+    "id": "https://mellonscholarlycommunication.github.io/service_node/nodes/arxiv.org/catalog.jsonld",
+    "type": "EventLogCatalog" ,
+    "member": [
+	{
+      "id" : "https://mellonscholarlycommunication.github.io/service_node/nodes/arxiv.org/eventlog/paper01.jsonld",
+	  "artifact": "https://labs.eventnotifications.net/artifacts/paper01/"
+	}
+    ]
+}
