@@ -1,14 +1,5 @@
 {
-    "@context": {
-        "id": "@id",
-        "type": "@type",
-        "ldes": "https://w3id.org/ldes#",
-        "tree": "https://w3id.org/tree#",
-	    "ev": "https://www.eventnotifications.net/ns#",
-        "EventLog": "ldes:EventStream",
-        "member": { "@id": "tree:member", "@type": "@id" },
-	    "artifact": { "@id": "ev:artifact", "@type": "@id" }
-    },
+    "@context": "https://labs.eventnotifications.net/contexts/eventlog.jsonld" ,
     "id": "https://mellonscholarlycommunication.github.io/service_node/nodes/arxiv.org/eventlog/paper01.jsonld",
     "type": "EventLog",
     "artifact": "https://labs.eventnotifications.net/artifacts/paper01/",
