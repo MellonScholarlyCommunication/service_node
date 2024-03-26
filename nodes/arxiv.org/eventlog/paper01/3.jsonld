@@ -1,46 +1,46 @@
 {
-    "@context": [
-      "https://www.w3.org/ns/activitystreams",
-      "https://purl.org/coar/notify"
-    ],
-    "id": "urn:uuid:1-1",
-    "type": [
-      "Announce",
-      "coar-notify:IngestAction"
-    ],
-    "actor": {
-        "id": "https://mellonscholarlycommunication.github.io/service_node/nodes/arxiv.org/profile/card.ttl",
-        "name": "arXiv e-Print archive",
-        "inbox": "https://mellonscholarlycommunication.github.io/service_node/nodes/arxiv.org/inbox/",
-        "type": "Service"
-    },
-    "origin": {
-      "id": "https://arxiv.org/system",
-      "type": "Service"
-    },
-    "context": {
-      "id": "https://labs.eventnotifications.net/artifacts/paper01/",
-      "type": "sorg:AboutPage",
-      "ietf:cite-as": "https://w3id.org/eventnotifications/labs/artifacts/paper01/",
-      "url": {
-        "id": "https://labs.eventnotifications.net/artifacts/paper01/paper.pdf",
-        "mediaType": "application/pdf",
-        "type": [
-          "Article",
-          "sorg:ScholarlyArticle"
-        ]
-      }
-    },
-    "inReplyTo": "urn:uuid:1-1-0",
-    "object": {
-      "id": "https://arxiv.org/abs/2208.00665",
-      "type": "sorg:AboutPage",
-      "ietf:cite-as": "https://doi.org/10.48550/arXiv.2208.00665"
-    },
-    "target": {
-      "id": "https://labs.eventnotifications.net/profile/card#me",
-      "name": "Event Notifications Laboratory",
-      "inbox": "https://labs.eventnotifications.net/artifacts/paper01/inbox/",
-      "type": "Service"
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://purl.org/coar/notify"
+  ],
+  "id": "urn:uuid:1-1",
+  "type": [
+    "Announce",
+    "coar-notify:IngestAction"
+  ],
+  "actor": {
+    "id": "https://mellonscholarlycommunication.github.io/service_node/nodes/arxiv.org/profile/card.ttl",
+    "name": "arXiv e-Print archive",
+    "inbox": "https://mellonscholarlycommunication.github.io/service_node/nodes/arxiv.org/inbox/",
+    "type": "Service"
+  },
+  "origin": {
+    "id": "https://mellonscholarlycommunication.github.io/service_node/nodes/arxiv.org/profile/system.ttl",
+    "type": "Service"
+  },
+  "context": {
+    "id": "https://labs.eventnotifications.net/artifacts/paper01/",
+    "type": "sorg:AboutPage",
+    "ietf:cite-as": "https://w3id.org/eventnotifications/labs/artifacts/paper01/",
+    "ietf:item": {
+      "id": "https://labs.eventnotifications.net/artifacts/paper01/paper.pdf",
+      "mediaType": "application/pdf",
+      "type": [
+        "Article",
+        "sorg:ScholarlyArticle"
+      ]
     }
+  },
+  "inReplyTo": "urn:uuid:1-1-0",
+  "object": {
+    "id": "https://arxiv.org/abs/2208.00665",
+    "type": "sorg:AboutPage",
+    "ietf:cite-as": "https://doi.org/10.48550/arXiv.2208.00665"
+  },
+  "target": {
+    "id": "https://labs.eventnotifications.net/profile/card#me",
+    "name": "Event Notifications Laboratory",
+    "inbox": "https://labs.eventnotifications.net/artifacts/paper01/inbox/",
+    "type": "Service"
   }
+}
